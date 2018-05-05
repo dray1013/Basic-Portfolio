@@ -1,31 +1,41 @@
+/*framework*/
 body .title{font-size: 40px;
        font-family: 'Georgia', Times, Times New Roman, serif;
        color: white;
        width: 225px;
        padding: 20px;
        background-color:#4aaaa5;
-       margin-top: 0;}
+       margin: 0;}
 
-header{background-color: white;
+body .top{background-color: white;
       position: absolute;
       height: 86px;
       width: 100%;
-      z-index: -1;
+      z-index: -1;  
       border-bottom-style: solid;
       border-bottom-color:#cccccc;
-}
+      margin: 0;}
 
-header a:link{color: grey;
+body nav{text-align:right;}
+
+body nav ul {list-style-type: none;
+    margin: 0;}
+
+body nav  ul li{border-right:2px;
+          border-right-style: solid; 
+          border-right-color: dimgray;}
+
+body nav ul li a:link{color: #777777;
+             text-align: center;
               font-size: 25px;
               width: fit-content;
               padding: 25px;
               float: right;
               text-decoration: none;}
 
-header a:visited{color:grey;}
+body nav ul li a:visited{color:#777777;}
 
-header a:hover{color:#4aaaa5}
-
+body nav ul li a:hover{color:#4aaaa5}
 
 
 body {background-image: url("../images/background.png");
@@ -48,25 +58,12 @@ body img{float:left;
 body .wrapper{ width: fit-content;
                margin: auto;}
 
-body .wrapper .content{color:#777777; 
-     font-size: 16px;
-     font-family:'Times New Roman';
-     letter-spacing: 1px;
-     line-height: 1.5;
-     width: 960px; 
-     padding-top: 0px; 
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-bottom:20px;
-     border: 1px;
-     margin: auto;
-     background-color: white;
-     border-style:solid;
-     border-color:#dddddd;
-     margin-top: 40px;}
 
-footer{color: #777777;
-      position: fixed;
+
+footer{color:white;
+       font-size:10px;
+       font-weight: 100;
+       position: fixed;
        left: 0;
        bottom: 0;
        width: 100%;
@@ -78,4 +75,56 @@ footer{color: #777777;
        border-top-width: 7px;
        border-top-color:#4aaaa5;}
        
-    
+
+      /*index mods*/
+body h1 {color:#4aaaa5;
+            font-family: 'Georgia', Times, Times New Roman, serif;
+            text-align:left;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            border-bottom-style: solid;
+            border-bottom-color:#dddddd}
+          
+   
+body img{float:left;
+            padding: 10px;}
+      
+body .wrapper .content{color:#777777;
+            font-size: 16px;
+            font-family:'Times New Roman';
+            letter-spacing: 1px;
+            line-height: 1.5;
+            width: 960px; 
+            padding-top: 0px; 
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom:20px;
+            border: 1px;
+            margin: auto;
+            background-color: white;
+            border-style:solid;
+            border-color:#dddddd;
+            margin-top: 40px;}
+       
+
+       /*portfolio mods*/  
+       body .wrapper .gallery{width: 960px;
+            overflow: hidden;
+            border: 1px;
+            margin: auto;
+            background-color: white;
+            border-style:solid;
+            border-color:#dddddd;
+            margin-top: 40px;}
+       
+body .wrapper .content .hangman{width: fit-content}
+
+body .wrapper .content .rpg{width: fit-content}
+
+body .wrapper .content .trivia{width: fit-content}
+
+body .wrapper .content .rutgers{width: fit-content}
+
+body .wrapper .content .rock{width: fit-content}
+
+/*contact mods*/
