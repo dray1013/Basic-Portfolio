@@ -128,3 +128,21 @@ body .wrapper .content .rutgers{width: fit-content}
 body .wrapper .content .rock{width: fit-content}
 
 /*contact mods*/
+body .wrapper .form{color:#777777;
+font-size: 16px;
+font-family:'Times New Roman';
+letter-spacing: 1px;
+line-height: 1.5;
+width: 960px; 
+padding-top: 0px; 
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom:20px;
+border: 1px;
+margin: auto;
+background-color: white;
+border-style:solid;
+border-color:#dddddd;
+margin-top: 40px;}
+
+body .wrapper .action{ width: auto;}
